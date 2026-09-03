@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Calendar body -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M30,28C26,28 23,31 23,35L23,76C23,80 26,83 30,83L78,83C82,83 85,80 85,76L85,35C85,31 82,28 78,28L70,28L70,23L63,23L63,28L45,28L45,23L38,23L38,28L30,28ZM30,40L78,40L78,76L30,76L30,40Z"/>
+    <!-- Calendar header accent -->
+    <path android:fillColor="#FF14B8A6" android:pathData="M30,40L78,40L78,49L30,49Z"/>
+    <!-- Clock face -->
+    <path android:fillColor="#FF0F766E" android:pathData="M54,53C45.7,53 39,59.7 39,68C39,76.3 45.7,83 54,83C62.3,83 69,76.3 69,68C69,59.7 62.3,53 54,53ZM54,58C59.5,58 64,62.5 64,68C64,73.5 59.5,78 54,78C48.5,78 44,73.5 44,68C44,62.5 48.5,58 54,58Z"/>
+    <!-- Clock hands -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M52,60L56,60L56,67L61,70L59,73L52,69Z"/>
+</vector>
