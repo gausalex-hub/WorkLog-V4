@@ -565,17 +565,9 @@ class MainActivity : AppCompatActivity() {
 
         content.addView(dayBox)
 
-        fun sameDay(
-            a: Calendar,
-            b: Calendar
-        ): Boolean {
-
-            return
-                a.get(Calendar.YEAR) ==
-                        b.get(Calendar.YEAR) &&
-                        a.get(Calendar.DAY_OF_YEAR) ==
-                        b.get(Calendar.DAY_OF_YEAR)
-        }
+    fun sameDay(a: Calendar, b: Calendar): Boolean =
+    a.get(Calendar.YEAR) == b.get(Calendar.YEAR) &&
+    a.get(Calendar.DAY_OF_YEAR) == b.get(Calendar.DAY_OF_YEAR)
 
         fun refreshDay(selected: Calendar) {
 
